@@ -1,13 +1,13 @@
 import {sideBarMenus} from "../config/navigation";
 
-const Navigation = () => {
+const Navigation = (): JSX.Element => {
 	return (
-		<div className=" ml-3 w-fit tracking-wide  ">
-			<ul>
+		<div className=" ml-3 w-fit tracking-wide   ">
+			<ul >
 				{sideBarMenus.map((menu) => (
 					<li
 						key={menu.title}
-						className="flex justify-start hover:bg-gray-900 duration-200 mb-2 p-2 px-4 rounded-3xl items-center hover:cursor-pointer gap-3"
+						className="flex justify-start hover:bg-gray-900 duration-200 p-2 px-4 rounded-3xl items-center hover:cursor-pointer gap-3 mb-3"
 					>
 						<span className="text-md text-xl font-semi-bold">{menu.icon}</span>
 						<span className="text-md font-semi-bold">{menu.title}</span>
