@@ -11,7 +11,7 @@ const TwitterCard = (): JSX.Element => {
 				<div className=" col-span-1 justify-self-start  ">
 					<Image
 						src={
-							"https://media.licdn.com/dms/image/D4D03AQEHtroO7yWa4w/profile-displayphoto-shrink_800_800/0/1702149432997?e=1710374400&v=beta&t=_ClXNDJGVQPHEA-vd-bVsVnLI_OkL7NRnNWDW1U7goM"
+							"https://img.freepik.com/free-vector/illustration-user-avatar-icon_53876-5907.jpg"
 						}
 						alt="profile picture"
 						width={50}
